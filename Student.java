@@ -37,8 +37,12 @@ public class Student {
             Student student1 = new Student("Denzel", 90);
             System.out.println("Student: " + student1.getName() + ", Grade: " + student1.getGrade());
 
-            student1.setGrade(110); // Invalid grade, should be set to 0
+            student1.setGrade(70); // Invalid grade, should be set to 0
             System.out.println("Updated Grade: " + student1.getGrade());
+
+
+            student1.setName("Robert");
+            System.out.println("Updated Name: " + student1.getName());
         }
 
 }
