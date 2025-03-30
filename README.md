@@ -59,4 +59,4 @@ The program accepts two numbers from the user and divides the first by the secon
 
 If the second number is zero, an ArithmeticException is caught, and a meaningful message ("Cannot divide by zero!") is displayed.
 
-The finally block ensures that the scanner is properly closed.
+
