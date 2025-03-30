@@ -11,5 +11,11 @@ public class Main {
 
         myDog.makeSound();
         myCat.makeSound();
+        //Qn2
+        Appliance myFan = new Fan();
+        Appliance myTV = new TV();
+
+        myFan.turnOn(); // This should print "Fan is now spinning."
+        myTV.turnOn(); // This should print "TV is now on."
     }
 }
